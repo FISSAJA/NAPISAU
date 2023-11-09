@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CONTACT US</title>
+	<link rel="stylesheet" type="text/css" href="style.css" type="text/css">
+<h1><center><font size="100px" color="red" face="brush script mt">FISS WEBSITE</font></center></h1>
+	
+
+	
+	<script type="text/javascript">
+ window.onload = function() { jam(); }
+ function jam() {
+  var e = document.getElementById('jam'),
+  d = new Date(), h, m, s;
+  h = d.getHours();
+  m = set(d.getMinutes());
+  s = set(d.getSeconds());
+
+  e.innerHTML = h +':'+ m +':'+ s;
+
+  setTimeout('jam()', 1000);
+ }
+
+ function set(e) {
+  e = e < 10 ? '0'+ e : e;
+  return e;
+ }
+</script>
+</head>
+<body>
+<center>
+<h2 style="font-size: 30px; font-family: monospace;color: white;" id="jam"></h2>
+</center>
+
+<nav class="menu">
+	<label style="font-family: unset;">FISS.ID</label>
+	<ul>
+		<li><a href="WOE.HTML">HOME</a></li>
+		<li><a href="WOE2.HTML">ABOUT US</a></li>
+		<li><a href="WOE3.HTML">GALLERY</a></li>
+		<li><a href="WOE4.HTML">CONTACT US</a></li>
+
+	</ul></nav>
+</head>
+<body>
+	<div class="container">
+  <div style="text-align:center">
+    <h2><font style="font-family:sans-serif; color: yellow;">CONTACT US</font></h2>
+    <p><font style="color:white">Jika ada yang bisa kami bantu bisa hubungi kami:</font></p>
+    <br><font style="color:white">EMAIL : syahnafis@gmail.com</font> 
+    <br><font style="color:white">WA : 082175317185</font>
+      
+
+
+      <div class="container">
+  <form action="action_page.php">
+
+    <label for="NAMA DEPAN" style="font-family: sans-serif; color: yellow; font-size: 100%;">NAMA DEPAN</label>
+    <input type="text" id="fname" name="firstname" placeholder="NAMA..">
+
+    <label for="NAMA BELAKANG" style="font-family: sans-serif; color: yellow; font-size: 100%;">NAMA BELAKANG</label>
+    <input type="text" id="lname" name="lastname" placeholder="NAMA AKHIR..">
+
+    <label for="country" style="font-family: sans-serif; color: yellow; font-size: 100%;">KOTA</label>
+    <select id="country" name="KOTA">
+      <option value="PANGKALPINANG">PANGKALPINANG</option>
+      <option value="BANGKA TENGAH">BANGKA TENGAH</option>
+      <option value="BANGKA BARAT">BANGKA BARAT</option>
+    </select>
+
+    <label for="PESAN" style="font-family: sans-serif; color: yellow; font-size: 100%;">PESAN</label>
+    <textarea id="PESAN" name="PESAN" placeholder="TULIS PESAN.." style="height:200px"></textarea>
+
+    <input type="submit" value="KIRIM" style="font-family: sans-serif; color: yellow; font-size: 100%;">
+
+  </form>
+</div>
+
+
+</body>
+</html>

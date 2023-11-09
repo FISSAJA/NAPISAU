@@ -1,0 +1,108 @@
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)) ,url("peman.jpg" );
+	background-size: cover;
+	margin: auto;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.menu {
+	font-family: rockwell;
+	font-weight: bold;
+	height: 60px;
+	width: 100%;
+	background: white;
+	opacity: 70%; 
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+label {
+	font-family: rockwell;
+	font-size: 20pt;
+	color: black;
+	margin: 10px;
+	padding: 5px;
+	float: left;
+}
+
+.menu ul {
+	margin: 0px;
+	padding: 4px;
+	background: none;
+	display: block;
+	float: right;
+}
+
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.menu ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	color: black;
+}
+
+.menu ul li a:hover {
+	display: block;
+	color: skyblue;
+	background: #222;
+	box-shadow: inset 0px 0px 4px black;
+}
+
+.par {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 120%;
+	color: white;
+	-webkit-text-stroke: 0,25px black;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 2px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: black;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 3px;
+  background-color: none;
+  padding: 40px;
+}
+
+img {
+	margin: 20px;
+	border: 3px solid black;
+	border-radius: 10% ;
+	box-shadow: 5px 5px 10px;
+}
+
+
+
+
+
